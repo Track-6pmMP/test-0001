@@ -12,3 +12,6 @@ def lambda_handler(event, context):
         dynamoTable = dynamodb.Table('newtable')
         dynamoTable.put_item(
             Item={'unique': str(uuid4()), 'Bucket': bucket_name, 'Object': object_key,'Size': size, 'Event': event_name, 'EventTime': event_time})
+
+error in this boto3 code 
+please change it to boto type 2
