@@ -15,3 +15,5 @@ def lambda_handler(event, context):
 
 error in this boto3 code 
 please change it to boto type 2
+
+changes made and it is successfull
